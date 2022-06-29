@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assest\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assest\Background.png" />
+    <None Remove="Assest\Block-Empty.png" />
+    <None Remove="Assest\Block-I.png" />
+    <None Remove="Assest\Block-J.png" />
+    <None Remove="Assest\Block-L.png" />
+    <None Remove="Assest\Block-O.png" />
+    <None Remove="Assest\Block-S.png" />
+    <None Remove="Assest\Block-T.png" />
+    <None Remove="Assest\Block-Z.png" />
+    <None Remove="Assest\TileBlue.png" />
+    <None Remove="Assest\TileCyan.png" />
+    <None Remove="Assest\TileEmpty.png" />
+    <None Remove="Assest\TileGreen.png" />
+    <None Remove="Assest\TileOrange.png" />
+    <None Remove="Assest\TilePurple.png" />
+    <None Remove="Assest\TileRed.png" />
+    <None Remove="Assest\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assest\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assest\Background.png" />
+    <Resource Include="Assest\Block-Empty.png" />
+    <Resource Include="Assest\Block-I.png" />
+    <Resource Include="Assest\Block-J.png" />
+    <Resource Include="Assest\Block-L.png" />
+    <Resource Include="Assest\Block-O.png" />
+    <Resource Include="Assest\Block-S.png" />
+    <Resource Include="Assest\Block-T.png" />
+    <Resource Include="Assest\Block-Z.png" />
+    <Resource Include="Assest\TileBlue.png" />
+    <Resource Include="Assest\TileCyan.png" />
+    <Resource Include="Assest\TileEmpty.png" />
+    <Resource Include="Assest\TileGreen.png" />
+    <Resource Include="Assest\TileOrange.png" />
+    <Resource Include="Assest\TilePurple.png" />
+    <Resource Include="Assest\TileRed.png" />
+    <Resource Include="Assest\TileYellow.png" />
+  </ItemGroup>
+
+</Project>
